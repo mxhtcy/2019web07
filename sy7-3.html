@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>网页首页</title>
+	<style>
+		body{
+			background: url("images/beijing1.jpg") no-repeat top center;
+			background-size: 100% 100%;
+			height: 380px;
+			padding: 50px 0 0 860px;
+		}
+		.input-group-jsxx lable{
+			font-size: 16px;
+			color: #858a8e;
+			line-height: 34px;
+			margin: 0;
+		}
+		.input-group-jsxx input{
+			margin: 0 5px;
+			font-size: 16px;
+			line-height: 34px;
+			text-align: center;
+			display: block;
+		}
+		form{
+			width:248px;
+			height: 240px;
+			background-color:#FFFFFF;
+			padding: 30px 40px;
+			border: 1px solid #0B195C;
+		}
+		input{
+			display: block;
+		}
+		[type="text"],[type="password"]{
+			width:250px;
+			height:38px;
+			border:1px solid #ccc;
+			margin-bottom: 30px;
+			font-size: 16px;
+			text-indent: 50px;
+			background-color: aliceblue;
+		}
+		[type="text"]{
+			background: url("images/zhanghao.jpg")no-repeat 0 -2px;
+		}
+		[type="password"]{
+			background: url("images/mima.jpg")no-repeat 0 -2px;
+		}
+		td{
+			display: table-cell;
+			vertical-align: inherit;
+			padding: 0;
+			width: 60px
+		}
+		.login-tit{
+			font-size: 30px;
+			color: #ffffff;
+			text-align: center;
+			padding: 20px 0 30px;
+			line-height: 1em;
+			margin: 0;
+		}
+		.login{
+			width: 330px;
+		}
+		[type="submit"]{
+			width:255px;
+			height: 44px;
+			margin: 25px auto;
+			border:none;
+			font-size: 30px;
+			font-family: "黑体";
+		}
+		.login-form{
+			width: 350px;
+		}
+		#RadioButtonList1:before{
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="login">
+		<h2 class="login-tit">用户登录</h2>
+		<div class="login-form">
+			<form action="#" method="post" name="form">
+			<input type="text" name="user" placeholder="用户名/邮箱地址/手机号">
+			<input type="password" name="password" placeholder="填写密码">
+			<input type="submit" name="submit" value="登录">
+				<div class="input-group input-group-jsxx">
+					<table id="RadioButtonList1" class="formline login-radio clearfix" border="0">
+						
+						<tbody>
+							<tr>
+							<td>
+								<input id="RadioButtonList1_0" type="radio" name="RadioButtonList1" value="部门" tabindex="4" />
+								<label for="RadioButtonList1_0">部门</label>
+							</td>
+							<td>
+								<input id="RadioButtonList1_1" type="radio" name="RadioButtonList1" value="教师" tabindex="4" />
+								<label for="RadioButtonList1_1">教师</label>
+							</td>
+							<td>
+								<input id="RadioButtonList1_2" type="radio" name="RadioButtonList1" value="学生" 	checked="checked" tabindex="4" />
+								<label for="RadioButtonList1_2">学生</label>
+							</td>
+							<td>
+								<input id="RadioButtonList1_3" type="radio" name="RadioButtonList1" value="访客" tabindex="4" />
+								<label for="RadioButtonList1_3">访客</label>
+							</td>
+						</tr>
+							
+						</tbody>
+					</table>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+</body>
+</html>
